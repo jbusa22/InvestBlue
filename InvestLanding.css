@@ -1,0 +1,40 @@
+.pl {
+    padding-right: 2rem;
+}
+.navbar-brand {
+    font-size: 2.25rem;
+}
+.navbar-text {
+    font-size: 1.5rem;
+}
+#usmap {
+    width: 60%; 
+    height: 500px;
+    margin-left: 20%;
+    border: solid black 2px;
+    border-radius: 4px;
+}
+.row
+{
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-left: 275px;
+}
+.card-text {
+    margin-top: .75rem;
+    text-align: center;
+}
+.card-percent 
+{
+    font-size: 71px;
+    margin: 0;
+}
+.card-title {
+    margin: 0;
+    text-align: center;
+}
+@media (min-width: 1200px) { 
+    #usmap {
+        margin-top: 50px;
+    }
+}
