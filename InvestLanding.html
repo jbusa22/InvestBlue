@@ -18,6 +18,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
     <script src="node_modules/datamaps/dist/datamaps.usa.min.js"></script>
         <div id="usmap"></div>
+    
     <script type="text/javascript" src="InvestLanding.js"></script>
     <div class="row">
         <div class="col-sm-3">
@@ -45,8 +46,12 @@
             </div>
           </div>
       </div>
-    
-    
-    
+      <div class="chart-box">
+          <canvas id="myChart" height="20vh" width="80vw"></canvas>
+      </div>
+      
+      <script src="node_modules\chart.js\dist\Chart.min.js"></script>
+      <script type="text/javascript" src="InvestChart.js"></script>
+      
 </body>
 </html>
